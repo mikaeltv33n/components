@@ -1,0 +1,22 @@
+:root {
+    --brand-color: #FFCA27;
+    --dark-color: #155E75;
+    --mid-color: #E5E7EB;
+    --light-color: #F8FAFC;
+
+    
+--base-font: Verdana, Geneva, Tahoma, sans-serif;
+--brand-font:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--base-font);
+    color: var(--dark-color);
+    background: var(--light-color);
+}
